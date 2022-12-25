@@ -1,0 +1,743 @@
+Job Title,Size,Type of ownership,Sector,Revenue,Hourly,Employer provided,AvgSalary,Job Location,Age,Python,spark,aws,excel,sql,sas,keras,pytorch,scikit,tensor,hadoop,tableau,bi,flink,mongo,google_an,seniority_by_title,Degree,NumSkills
+Data Scientist,501 - 1000,Company - Private,Aerospace & Defense,$50 to $100 million (USD),0,0,72,NM,48,1,0,0,1,0,1,0,0,0,0,0,1,1,0,0,0,na,M,5
+Data Scientist,10000+,Other Organization,Health Care,$2 to $5 billion (USD),0,0,87.5,MD,37,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,85,FL,11,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,5
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,76.5,WA,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,51 - 200,Company - Private,Business Services,Unknown / Non-Applicable,0,0,114.5,NY,23,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,na,4
+Data Scientist,201 - 500,Company - Public,Real Estate,$1 to $2 billion (USD),0,0,95,TX,21,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,na,na,6
+Data Scientist,501 - 1000,Company - Private,Finance,Unknown / Non-Applicable,0,0,73.5,MD,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,201 - 500,Company - Private,Business Services,$25 to $50 million (USD),0,0,114,CA,16,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,na,M,7
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,61,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Data Scientist,51 - 200,Company - Private,Information Technology,$100 to $500 million (USD),0,0,140,NY,12,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,501 - 1000,Company - Private,Retail,$1 to $2 billion (USD),0,0,163.5,CA,10,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,5001 - 10000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,85,VA,53,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Retail,$10+ billion (USD),0,0,139,TX,59,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,2
+Data Analyst,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,65.5,WA,9,1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,7
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,113.5,MA,240,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,na,M,4
+Data Engineer,1001 - 5000,Subsidiary or Business Segment,Media,Unknown / Non-Applicable,0,0,146,NJ,26,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,51 - 200,Company - Public,Biotech & Pharmaceuticals,$1 to $5 million (USD),0,0,102,MA,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,153.5,CA,10,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,na,M,5
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,142.5,CA,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,501 - 1000,Nonprofit Organization,Insurance,$500 million to $1 billion (USD),0,0,87.5,CO,106,1,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,na,M,7
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,105.5,WA,9,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,201 - 500,Company - Private,Insurance,Unknown / Non-Applicable,0,0,96,TX,8,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Scientist,501 - 1000,Company - Private,Transportation & Logistics,Unknown / Non-Applicable,0,0,112.5,IL,26,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,na,M,5
+Data Scientist,51 - 200,Nonprofit Organization,Transportation & Logistics,$10 to $25 million (USD),0,0,84,KY,86,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,143,VA,9,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,na,na,4
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,86.5,MA,172,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Company - Private,Finance,$100 to $500 million (USD),0,0,99.5,OR,69,1,1,1,1,1,0,1,0,1,1,0,1,0,0,0,0,na,na,9
+Data Analyst,5001 - 10000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,47.5,MA,169,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,84,CT,172,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,85,FL,11,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,5
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,76.5,WA,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,1001 - 5000,Company - Private,Real Estate,$500 million to $1 billion (USD),0,0,96,MI,24,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,114.5,MA,25,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,na,na,3
+Data Scientist,5001 - 10000,Company - Public,Telecommunications,$2 to $5 billion (USD),0,0,121,CA,25,1,1,0,1,1,0,1,0,1,1,0,0,0,0,1,0,na,M,8
+Data Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,112.5,MA,47,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,106,CA,13,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,5
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,107,CA,52,1,1,1,0,0,0,0,0,0,0,1,1,0,0,1,0,na,M,6
+Data Scientist,201 - 500,Company - Private,Aerospace & Defense,$100 to $500 million (USD),0,0,110,MA,11,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0,0,na,P,8
+Data Scientist,5001 - 10000,Company - Public,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,147.5,CA,151,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Engineer,201 - 500,Company - Private,Insurance,$100 to $500 million (USD),0,0,106,NY,36,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Analyst,201 - 500,Company - Private,Information Technology,$50 to $100 million (USD),0,0,88,CA,13,1,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,na,na,6
+Data Engineer,1 - 50,Company - Private,Health Care,Less than $1 million (USD),0,0,98.5,MA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,142.5,CA,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Other Scientist,5001 - 10000,Company - Public,Manufacturing,$2 to $5 billion (USD),0,0,82.5,NJ,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1001 - 5000,Company - Public,Real Estate,$2 to $5 billion (USD),0,0,130,IL,28,1,1,0,1,1,0,0,0,1,0,1,1,1,0,0,0,sr,M,8
+Data Scientist,unknown,Company - Private,Information Technology,Unknown / Non-Applicable,0,1,155,DC,NA,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,184.5,WA,63,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,sr,na,5
+Data Analyst,5001 - 10000,Company - Private,Information Technology,$2 to $5 billion (USD),0,0,29.5,CO,35,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,501 - 1000,Company - Private,Aerospace & Defense,$100 to $500 million (USD),0,0,86.5,OH,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,10000+,Company - Public,Manufacturing,$10+ billion (USD),0,0,81,IL,96,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,na,na,1
+Data Scientist,501 - 1000,Subsidiary or Business Segment,Business Services,Unknown / Non-Applicable,0,0,91,FL,37,1,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,na,na,5
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,114.5,MA,109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,1001 - 5000,Company - Private,Aerospace & Defense,$100 to $500 million (USD),0,0,68,AL,19,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,10000+,Company - Public,Insurance,$10+ billion (USD),0,0,115,NY,158,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,109.5,CA,82,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,5001 - 10000,Company - Public,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,75.5,NM,151,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,154.5,CA,9,1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,na,P,5
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,143.5,MO,5,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,na,na,6
+Data Scientist,501 - 1000,Company - Private,Finance,Unknown / Non-Applicable,0,0,73.5,MD,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,201 - 500,Company - Public,Real Estate,$1 to $2 billion (USD),0,0,95,TX,21,1,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,na,na,6
+Data Scientist,201 - 500,Subsidiary or Business Segment,Mining & Metals,Unknown / Non-Applicable,0,0,107,OH,136,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Data Scientist,201 - 500,Company - Private,Business Services,$10 to $25 million (USD),0,0,115,NY,10,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,na,na,6
+Data Scientist,501 - 1000,Company - Public,Finance,$50 to $100 million (USD),0,0,139.5,CA,15,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,67,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,na,M,2
+Data Scientist,10000+,Company - Public,Retail,$5 to $10 billion (USD),0,0,85,PA,73,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$1 to $5 million (USD),0,0,118,MA,15,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,P,3
+Data Scientist,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,79.5,GA,18,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,na,na,6
+Data Scientist,201 - 500,Company - Public,Business Services,$100 to $500 million (USD),0,0,56.5,MA,22,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,128.5,PA,22,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Other Scientist,10000+,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,97.5,WA,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Analyst,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,66.5,IN,6,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Business Services,$10+ billion (USD),0,0,179.5,IL,94,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,4
+Other Scientist,501 - 1000,Subsidiary or Business Segment,Business Services,$50 to $100 million (USD),0,0,76,MO,43,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,112,VA,11,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,M,4
+Data Scientist,1001 - 5000,Company - Private,Mining & Metals,$1 to $2 billion (USD),0,0,98,PA,161,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,na,M,2
+Data Scientist,10000+,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,128,WA,82,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,sr,M,5
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,150.5,CA,10,1,1,1,1,0,0,1,0,1,1,1,0,0,0,0,0,na,P,8
+Other Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$10 to $25 million (USD),0,0,87.5,MA,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1001 - 5000,Company - Private,Aerospace & Defense,$1 to $2 billion (USD),0,0,110,VA,4,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,na,na,4
+Data Scientist,10000+,Company - Private,Information Technology,$500 million to $1 billion (USD),0,0,113.5,CA,26,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,51 - 200,Company - Private,Health Care,$1 to $5 million (USD),0,0,124,CA,5,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,201 - 500,Company - Private,Business Services,$25 to $50 million (USD),0,0,56.5,PA,24,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,jr,na,2
+Data Scientist,5001 - 10000,Nonprofit Organization,Aerospace & Defense,$1 to $2 billion (USD),0,0,130,MD,79,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,51 - 200,Company - Private,Information Technology,$10 to $25 million (USD),0,0,77.5,IL,13,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Engineer,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,87,VA,19,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,4
+Data Analyst,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,53.5,WA,73,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Public,Retail,$10+ billion (USD),0,0,139,TX,59,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,2
+Data Scientist,201 - 500,Company - Private,Business Services,$25 to $50 million (USD),0,0,114,CA,16,1,1,1,1,1,0,0,1,0,1,0,0,0,0,0,0,na,M,7
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,85.5,FL,13,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Data Analyst,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,48,AL,25,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Data Analyst,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,48,LA,22,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,174,CA,31,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Scientist,5001 - 10000,Company - Public,Finance,$1 to $2 billion (USD),0,0,85,GA,53,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,na,4
+Data Engineer,51 - 200,Company - Private,Information Technology,$10 to $25 million (USD),0,0,106.5,MD,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,1001 - 5000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,72.5,MD,33,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,10000+,Subsidiary or Business Segment,Information Technology,$10+ billion (USD),0,0,85.5,MD,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,97.5,VA,63,1,0,0,1,1,1,0,0,0,0,0,1,1,0,1,0,na,na,7
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,99,VA,11,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Analyst,1001 - 5000,Company - Private,Insurance,$2 to $5 billion (USD),0,0,56.5,WI,20,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,133,MD,14,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Scientist,51 - 200,Company - Private,Business Services,Unknown / Non-Applicable,0,0,121,NY,9,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,na,na,6
+Data Scientist,501 - 1000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,85.5,NY,29,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,1001 - 5000,Subsidiary or Business Segment,Education,Unknown / Non-Applicable,0,0,87.5,TX,6,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,237.5,DC,86,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Engineer,1001 - 5000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,95.5,NC,24,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Scientist,10000+,Company - Public,Manufacturing,$5 to $10 billion (USD),0,0,104.5,MI,27,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,sr,M,6
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,56.5,NJ,9,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Analyst,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,55,AZ,11,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,sr,na,3
+Other Scientist,1001 - 5000,Hospital,Health Care,Unknown / Non-Applicable,0,0,61.5,NE,44,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,201 - 500,Company - Private,Information Technology,$100 to $500 million (USD),0,0,157,CA,15,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Engineer,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,78,NJ,2,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,113.5,MA,240,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Information Technology,$100 to $500 million (USD),0,0,140,NY,12,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,132.5,CA,6,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,na,M,3
+Data Engineer,5001 - 10000,Company - Public,Information Technology,$2 to $5 billion (USD),0,0,108,CA,39,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Scientist,501 - 1000,Company - Private,Agriculture & Forestry,$50 to $100 million (USD),0,0,80.5,IN,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,201 - 500,Company - Private,Health Care,Unknown / Non-Applicable,0,0,107.5,MD,21,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Engineer,51 - 200,Company - Private,Business Services,$25 to $50 million (USD),0,0,95,MN,25,0,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,na,na,5
+Data Scientist,1001 - 5000,Nonprofit Organization,Health Care,Unknown / Non-Applicable,0,0,119.5,CA,24,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,na,M,5
+Data Engineer,1001 - 5000,Company - Private,Business Services,$1 to $2 billion (USD),0,0,134,NC,21,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,100.5,MA,22,1,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,na,na,6
+Data Scientist,1001 - 5000,Company - Public,Media,$500 million to $1 billion (USD),0,0,107.5,OH,143,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,M,3
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,122,DC,6,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,4
+Data Engineer,1001 - 5000,Company - Public,Real Estate,$2 to $5 billion (USD),0,0,92.5,IL,28,1,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,na,na,6
+Data Analyst,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,62,MD,35,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,51 - 200,Other Organization,Business Services,$25 to $50 million (USD),0,0,39.5,AL,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,1001 - 5000,Company - Private,Manufacturing,$100 to $500 million (USD),0,0,107.5,CA,55,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,na,M,3
+Data Scientist,501 - 1000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,40.5,MO,4,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,5
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,89.5,VA,63,1,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,sr,M,5
+Data Scientist,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,81,IL,13,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,na,na,6
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,147,VA,9,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,sr,na,4
+Data Scientist,1001 - 5000,Company - Private,Finance,$100 to $500 million (USD),0,0,85,TX,63,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,na,na,6
+Other Scientist,1001 - 5000,Company - Private,Manufacturing,$1 to $2 billion (USD),0,0,81.5,CA,50,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,1001 - 5000,Company - Public,Biotech & Pharmaceuticals,$500 million to $1 billion (USD),0,0,168,CA,24,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Machine Learning Engineer,1 - 50,Company - Private,Aerospace & Defense,Unknown / Non-Applicable,0,0,100.5,CO,14,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,na,na,7
+Data Scientist,1001 - 5000,Company - Private,Business Services,$100 to $500 million (USD),0,0,97,NY,78,1,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,na,M,7
+Data Scientist,5001 - 10000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,85,VA,53,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,2
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,153.5,CA,10,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,na,M,5
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,1,132.5,FL,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,51 - 200,Company - Private,Information Technology,$10 to $25 million (USD),0,0,100,IL,13,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,201 - 500,Company - Private,Travel & Tourism,Unknown / Non-Applicable,0,0,105,CO,10,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Engineer,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,87,UT,91,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Analyst,51 - 200,Company - Private,Real Estate,Unknown / Non-Applicable,0,0,103.5,CA,8,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,124,PA,37,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,67,WA,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,10000+,Company - Private,Information Technology,$2 to $5 billion (USD),0,0,87,DC,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,137.5,IL,10,1,1,1,1,0,0,1,0,1,1,1,0,0,0,0,0,na,P,8
+Data Scientist,201 - 500,Company - Private,Business Services,$100 to $500 million (USD),0,0,100,OH,34,1,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,sr,M,5
+Data Engineer,5001 - 10000,Nonprofit Organization,Insurance,$5 to $10 billion (USD),0,0,106.5,TN,76,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,na,na,5
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,98.5,WA,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,61,FL,11,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Scientist,51 - 200,Company - Private,Business Services,Unknown / Non-Applicable,0,0,106.5,IN,13,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,sr,na,5
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,84.5,MA,16,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Company - Public,Manufacturing,$2 to $5 billion (USD),0,0,109.5,NJ,175,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,na,M,4
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,164,MA,170,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,sr,P,6
+Data Scientist,10000+,Subsidiary or Business Segment,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,169,CA,45,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,sr,P,5
+Data Scientist,5001 - 10000,Company - Public,Telecommunications,$2 to $5 billion (USD),0,0,142,CA,25,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,0,sr,P,7
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,76.5,MA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,107,MD,40,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,171.5,CA,51,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Scientist,201 - 500,Company - Private,Insurance,Unknown / Non-Applicable,0,0,96,TX,8,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,142.5,CA,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,107,UT,91,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,145,MA,11,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Analyst,201 - 500,Nonprofit Organization,Education,$25 to $50 million (USD),0,0,61.5,VA,28,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Other Scientist,5001 - 10000,Nonprofit Organization,Health Care,Unknown / Non-Applicable,1,0,42,PA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,51 - 200,Government,Finance,$50 to $100 million (USD),0,0,120,WI,70,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,62,MA,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Data Scientist,5001 - 10000,Company - Public,Information Technology,$2 to $5 billion (USD),0,0,150.5,CA,39,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,sr,P,7
+Data Scientist,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,87.5,MI,54,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Engineer,51 - 200,Company - Public,Business Services,$25 to $50 million (USD),0,0,71.5,FL,15,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,6
+Data Analyst,51 - 200,Subsidiary or Business Segment,Retail,$100 to $500 million (USD),0,0,51.5,CA,15,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,na,na,2
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,151.5,CA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,77.5,NJ,7,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,140,MA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Scientist,1001 - 5000,Company - Private,Insurance,$10 to $25 million (USD),0,0,98.5,NJ,39,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Scientist,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,1,225,CA,4,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,161.5,MA,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,0
+Data Scientist,1001 - 5000,Company - Public,Insurance,$1 to $2 billion (USD),0,0,147,NY,73,1,1,1,0,1,0,1,1,1,1,1,0,0,0,0,0,sr,na,9
+Data Analyst,501 - 1000,Company - Private,"Oil, Gas, Energy & Utilities",$1 to $2 billion (USD),0,0,61,MO,60,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,120,PA,37,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,1001 - 5000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,124.5,AZ,13,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,na,na,5
+Data Scientist,51 - 200,Company - Private,Finance,$50 to $100 million (USD),0,0,148,CA,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,51 - 200,Company - Private,Aerospace & Defense,$25 to $50 million (USD),0,0,59,AL,25,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,5001 - 10000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,146.5,MA,169,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,4
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,91.5,MA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Machine Learning Engineer,501 - 1000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,133,IL,6,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,sr,P,6
+Data Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$1 to $5 million (USD),0,0,140.5,UT,8,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,sr,na,6
+Data Engineer,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,70.5,LA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Engineer,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,0,93.5,MD,19,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,134.5,MA,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Machine Learning Engineer,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,181,CA,14,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,na,na,5
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Engineer,51 - 200,Company - Private,Information Technology,$50 to $100 million (USD),0,0,205,CA,11,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Analyst,1001 - 5000,Company - Private,"Arts, Entertainment & Recreation",$100 to $500 million (USD),0,0,48.5,CA,35,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,na,M,5
+Other Scientist,1001 - 5000,Hospital,Health Care,$50 to $100 million (USD),1,0,44.5,TX,44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,501 - 1000,Company - Private,Manufacturing,$100 to $500 million (USD),0,0,52.5,IL,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,124,PA,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,501 - 1000,Nonprofit Organization,Health Care,$500 million to $1 billion (USD),0,0,64,CA,25,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Engineer,10000+,Company - Private,Retail,$10+ billion (USD),0,0,98,TN,63,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,501 - 1000,Company - Private,Manufacturing,Unknown / Non-Applicable,0,0,54,WI,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,1001 - 5000,Company - Public,Transportation & Logistics,$2 to $5 billion (USD),0,0,107.5,IL,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Scientist,501 - 1000,Company - Private,Transportation & Logistics,Unknown / Non-Applicable,0,0,112.5,IL,26,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,na,M,5
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,89,VA,26,1,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,na,na,6
+Data Scientist,1001 - 5000,Company - Private,Insurance,$1 to $2 billion (USD),0,0,100.5,WI,96,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,65,NY,19,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Other Scientist,10000+,Government,Government,Unknown / Non-Applicable,1,0,41.5,LA,91,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,201 - 500,Subsidiary or Business Segment,Business Services,Unknown / Non-Applicable,0,0,72.5,TX,22,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,na,M,8
+Data Analyst,501 - 1000,Company - Private,Business Services,$100 to $500 million (USD),0,0,61,FL,11,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Scientist,1001 - 5000,Company - Public,Manufacturing,$2 to $5 billion (USD),0,0,109.5,NJ,175,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,na,M,4
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,84.5,MA,16,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,87.5,IL,29,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,1001 - 5000,Company - Public,Media,$10+ billion (USD),0,0,92.5,CA,24,1,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,na,na,5
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,81.5,VA,63,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Data Analyst,1001 - 5000,Company - Private,Transportation & Logistics,Unknown / Non-Applicable,0,0,79,OH,40,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,164,MA,170,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,sr,P,6
+Data Scientist,10000+,Subsidiary or Business Segment,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,169,CA,45,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,sr,P,5
+Data Scientist,5001 - 10000,Company - Public,Telecommunications,$2 to $5 billion (USD),0,0,142,CA,25,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,0,sr,P,7
+Data Analyst,501 - 1000,Nonprofit Organization,Non-Profit,$50 to $100 million (USD),0,0,47.5,CA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,76.5,MA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Analyst,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,69,CA,8,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,5
+Data Analyst,201 - 500,Company - Private,Information Technology,$50 to $100 million (USD),0,0,49,ID,37,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,4
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,171.5,CA,51,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Scientist,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,107,MD,40,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,59,NJ,25,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,88.5,IN,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Engineer,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,107,UT,91,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,86.5,MA,172,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,51 - 200,Nonprofit Organization,Transportation & Logistics,$10 to $25 million (USD),0,0,84,KY,86,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Analyst,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,114.5,NY,29,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,145,MA,11,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Engineer,1001 - 5000,Company - Public,Information Technology,$100 to $500 million (USD),0,0,88,TN,15,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,6
+Data Engineer,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,100,IL,20,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Data Analyst,201 - 500,Nonprofit Organization,Education,$25 to $50 million (USD),0,0,61.5,VA,28,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Data Scientist,1001 - 5000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,96.5,OR,22,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Analyst,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,76,MN,29,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Company - Private,Business Services,$100 to $500 million (USD),0,0,15.5,NY,55,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,1 - 50,Company - Private,Business Services,Unknown / Non-Applicable,0,0,83.5,TX,11,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,na,na,4
+Data Scientist,51 - 200,Government,Finance,$50 to $100 million (USD),0,0,120,WI,70,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Data Scientist,10000+,Subsidiary or Business Segment,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,163,CA,45,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Analyst,501 - 1000,Nonprofit Organization,Insurance,Unknown / Non-Applicable,0,0,100,RI,82,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Other Scientist,1001 - 5000,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,52.5,NE,104,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,5001 - 10000,Nonprofit Organization,Health Care,Unknown / Non-Applicable,1,0,42,PA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,501 - 1000,Nonprofit Organization,Health Care,Unknown / Non-Applicable,0,0,50,DC,138,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,jr,M,4
+Data Engineer,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,93,TX,15,1,0,1,0,1,0,0,0,0,0,1,1,1,0,0,0,na,M,6
+Data Scientist,1001 - 5000,Company - Private,Insurance,$2 to $5 billion (USD),0,0,94.5,OH,134,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,5001 - 10000,Company - Public,Information Technology,$2 to $5 billion (USD),0,0,150.5,CA,39,1,1,0,0,1,1,0,0,1,1,1,0,0,0,0,0,sr,P,7
+Data Scientist,1001 - 5000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,102,NC,17,1,1,1,1,1,1,0,0,1,0,1,1,0,0,0,0,na,M,9
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,62,MA,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Data Scientist,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,87.5,MI,54,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,84,CT,172,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,143,VA,9,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,na,na,4
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,155,PA,22,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0,sr,M,6
+Data Engineer,51 - 200,Company - Public,Business Services,$25 to $50 million (USD),0,0,71.5,FL,15,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,6
+Data Scientist,51 - 200,Company - Private,Insurance,$10 to $25 million (USD),0,0,108,CA,21,1,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,na,M,7
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,151.5,CA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,51 - 200,Subsidiary or Business Segment,Retail,$100 to $500 million (USD),0,0,51.5,CA,15,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,na,na,2
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,140,MA,240,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,77.5,NJ,7,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Data Analyst,501 - 1000,Company - Private,Finance,$50 to $100 million (USD),0,0,63.5,ID,17,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,1 - 50,Company - Private,Information Technology,Less than $1 million (USD),0,0,109,CA,NA,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,5001 - 10000,Company - Public,Aerospace & Defense,$500 million to $1 billion (USD),0,0,96,TN,171,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,1,225,CA,4,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Data Engineer,1001 - 5000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,101,CA,13,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,5
+Data Scientist,1001 - 5000,Company - Private,Insurance,$10 to $25 million (USD),0,0,98.5,NJ,39,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Engineer,1001 - 5000,Company - Private,Manufacturing,$1 to $2 billion (USD),0,0,77.5,IA,73,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,161.5,MA,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,0
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,1001 - 5000,Company - Public,Insurance,$1 to $2 billion (USD),0,0,147,NY,73,1,1,1,0,1,0,1,1,1,1,1,0,0,0,0,0,sr,na,9
+Data Scientist,10000+,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,90,CA,24,1,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,na,na,6
+Data Analyst,501 - 1000,Company - Public,Finance,$5 to $10 billion (USD),0,0,58,NJ,119,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,501 - 1000,Company - Private,"Oil, Gas, Energy & Utilities",$1 to $2 billion (USD),0,0,61,MO,60,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,120,PA,37,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,1001 - 5000,Company - Public,Retail,$500 million to $1 billion (USD),0,0,128,NY,277,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,1001 - 5000,Company - Private,Finance,$100 to $500 million (USD),0,0,99.5,OR,69,1,1,1,1,1,0,1,0,1,1,0,1,0,0,0,0,na,na,9
+Data Scientist,1001 - 5000,Company - Private,Real Estate,$500 million to $1 billion (USD),0,0,96,MI,24,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,101,DC,18,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Finance,$50 to $100 million (USD),0,0,148,CA,12,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,142,VA,9,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,sr,na,4
+Data Scientist,1 - 50,Company - Private,Education,Unknown / Non-Applicable,0,0,169,CA,14,0,0,1,1,1,1,0,0,0,0,0,1,0,0,1,0,sr,M,6
+Data Scientist,1001 - 5000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,124.5,AZ,13,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,na,na,5
+Data Analyst,51 - 200,Company - Private,Aerospace & Defense,$25 to $50 million (USD),0,0,59,AL,25,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,52.5,CA,34,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Engineer,501 - 1000,Company - Private,Information Technology,$50 to $100 million (USD),0,0,75.5,TX,39,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,na,na,5
+Data Scientist,10000+,Company - Public,Insurance,$10+ billion (USD),0,0,139,NY,158,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Engineer,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,102.5,MA,240,1,1,1,1,1,0,0,0,0,0,1,1,0,0,1,0,na,na,8
+Other Scientist,201 - 500,Company - Private,Business Services,$25 to $50 million (USD),0,0,60.5,SC,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,5001 - 10000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,146.5,MA,169,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,4
+Other Scientist,10000+,Subsidiary or Business Segment,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,125,CA,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Analyst,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,81,MA,170,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,3
+Machine Learning Engineer,501 - 1000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,133,IL,6,1,0,1,0,1,0,0,1,1,1,0,0,0,0,0,0,sr,P,6
+Data Analyst,10000+,Subsidiary or Business Segment,Information Technology,$10+ billion (USD),0,0,77,DC,25,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,M,3
+Data Engineer,5001 - 10000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,92,VA,53,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,121,MA,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,0
+Data Engineer,5001 - 10000,Company - Public,Information Technology,$2 to $5 billion (USD),0,0,162.5,CA,39,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Other Scientist,1001 - 5000,Nonprofit Organization,Business Services,$500 million to $1 billion (USD),0,0,60,TX,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,201 - 500,Nonprofit Organization,Health Care,Unknown / Non-Applicable,0,1,87.5,CA,NA,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,M,4
+Data Engineer,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,90.5,IN,6,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,114.5,MA,25,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,na,na,3
+Data Scientist,5001 - 10000,Company - Public,Telecommunications,$2 to $5 billion (USD),0,0,121,CA,25,1,1,0,1,1,0,1,0,1,1,0,0,0,0,1,0,na,M,8
+Data Scientist,501 - 1000,Subsidiary or Business Segment,Business Services,$50 to $100 million (USD),0,0,110,TX,28,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,sr,M,1
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,91.5,MA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Analyst,5001 - 10000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,70.5,VA,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,70.5,LA,NA,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,76.5,WA,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,92,MA,170,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$1 to $5 million (USD),0,0,140.5,UT,8,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,sr,na,6
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,82,VA,52,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,134.5,MA,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,164.5,CA,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,201 - 500,Company - Public,Telecommunications,$50 to $100 million (USD),0,0,44,FL,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Engineer,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,0,93.5,MD,19,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Engineer,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,109,VA,6,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Data Engineer,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,149.5,TX,11,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Engineer,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,65.5,DC,14,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,4
+Data Scientist,1001 - 5000,Company - Public,Insurance,Unknown / Non-Applicable,0,0,124.5,NC,4,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Engineer,51 - 200,Company - Private,Business Services,Unknown / Non-Applicable,0,0,114,CA,23,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Analyst,501 - 1000,Nonprofit Organization,Finance,Unknown / Non-Applicable,0,0,49,PA,84,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,71,VA,32,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Data Analyst,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,101,MA,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,107,CA,52,1,1,1,0,0,0,0,0,0,0,1,1,0,0,1,0,na,M,6
+Data Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,112.5,MA,47,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Machine Learning Engineer,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,181,CA,14,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,na,na,5
+Data Analyst,10000+,Company - Public,Information Technology,$5 to $10 billion (USD),0,0,61,IL,93,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Engineer,51 - 200,Company - Private,Information Technology,$50 to $100 million (USD),0,0,205,CA,11,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,103.5,KY,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,63,MA,170,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Analyst,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,62.5,CT,40,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,501 - 1000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,94.5,CA,8,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,M,6
+Data Analyst,1001 - 5000,Company - Private,"Arts, Entertainment & Recreation",$100 to $500 million (USD),0,0,48.5,CA,35,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,na,M,5
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,154.5,MA,11,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Other Scientist,1001 - 5000,Hospital,Health Care,$50 to $100 million (USD),1,0,44.5,TX,44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Machine Learning Engineer,501 - 1000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,87,KS,48,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Other Scientist,501 - 1000,Company - Private,Manufacturing,$100 to $500 million (USD),0,0,52.5,IL,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,501 - 1000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,64.5,NY,18,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,4
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,111.5,CA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,154.5,MA,240,0,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,na,M,6
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,124,PA,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,128.5,IL,13,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,sr,na,6
+Other Scientist,501 - 1000,Hospital,Health Care,$100 to $500 million (USD),1,0,65,CO,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,501 - 1000,Nonprofit Organization,Health Care,$500 million to $1 billion (USD),0,0,64,CA,25,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Engineer,10000+,Company - Private,Retail,$10+ billion (USD),0,0,98,TN,63,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,142.5,CA,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,137,NY,108,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Engineer,501 - 1000,Nonprofit Organization,Insurance,$500 million to $1 billion (USD),0,0,99,CO,106,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Other Scientist,501 - 1000,Company - Private,Manufacturing,Unknown / Non-Applicable,0,0,54,WI,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,139.5,MA,37,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,4
+Data Engineer,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,109,MD,22,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,254,IL,109,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,M,2
+Other Scientist,201 - 500,Subsidiary or Business Segment,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,73,CA,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,99.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Analyst,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,45.5,OH,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,51 - 200,Company - Private,Business Services,$25 to $50 million (USD),0,0,122.5,IN,25,1,1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,sr,na,6
+Data Scientist,5001 - 10000,Company - Public,Finance,$1 to $2 billion (USD),0,0,140,IL,53,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,77.5,VA,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Other Scientist,1 - 50,Company - Private,"Construction, Repair & Maintenance",Unknown / Non-Applicable,1,1,55,MA,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,117.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,501 - 1000,Company - Private,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,70.5,CA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,61.5,CA,10,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,70,NY,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,80,GA,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Engineer,1001 - 5000,Company - Private,Insurance,$100 to $500 million (USD),0,0,90,MA,33,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,120,MA,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,73.5,PA,37,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,501 - 1000,Subsidiary or Business Segment,Business Services,Unknown / Non-Applicable,0,0,91,FL,37,1,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,na,na,5
+Data Scientist,unknown,Company - Private,Information Technology,Unknown / Non-Applicable,0,1,155,DC,NA,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,129.5,MA,170,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,na,na,8
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,167.5,NY,172,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Analyst,1001 - 5000,Company - Public,Finance,$1 to $2 billion (USD),0,0,60,WI,151,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,51 - 200,Company - Private,Finance,$50 to $100 million (USD),0,0,180,CA,12,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Analyst,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,65,NY,19,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Engineer,5001 - 10000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,112.5,NC,31,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,sr,na,5
+Data Analyst,201 - 500,Company - Private,Retail,$100 to $500 million (USD),0,0,87.5,NY,11,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,sr,na,4
+Data Engineer,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,51.5,IN,109,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,na,M,4
+Other Scientist,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,51,CA,49,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Private,Finance,$10+ billion (USD),0,0,62.5,MA,165,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,4
+Data Engineer,501 - 1000,Company - Public,Health Care,Unknown / Non-Applicable,0,0,100,AZ,40,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,na,2
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,85,VA,17,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,122,FL,9,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Analyst,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,66.5,IL,26,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,na,M,5
+Data Scientist,1001 - 5000,Company - Private,Finance,Unknown / Non-Applicable,0,0,70.5,MO,19,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,na,na,6
+Data Engineer,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,138.5,TX,11,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,sr,na,4
+Data Scientist,1001 - 5000,Company - Private,Business Services,$100 to $500 million (USD),0,0,107.5,MA,78,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,na,na,6
+Other Scientist,501 - 1000,Company - Public,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,120.5,MA,13,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,103.5,KY,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,1001 - 5000,Company - Public,Transportation & Logistics,$2 to $5 billion (USD),0,0,107.5,IL,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Engineer,1001 - 5000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,162,CA,14,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,sr,na,5
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,68.5,CA,52,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Insurance,$5 to $10 billion (USD),0,0,110.5,OH,43,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,sr,na,4
+Data Scientist,10000+,Company - Public,Manufacturing,$10+ billion (USD),0,0,81,IL,96,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,na,na,1
+Data Scientist,1001 - 5000,Company - Public,Real Estate,$2 to $5 billion (USD),0,0,130,IL,28,1,1,0,1,1,0,0,0,1,0,1,1,1,0,0,0,sr,M,8
+Data Engineer,201 - 500,Subsidiary or Business Segment,Insurance,$100 to $500 million (USD),0,0,115.5,IA,NA,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,80.5,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,sr,M,2
+Data Analyst,501 - 1000,Company - Private,Finance,$100 to $500 million (USD),0,0,43,IA,29,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Analyst,201 - 500,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,140,MA,18,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,120,MA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,5001 - 10000,Company - Private,Insurance,$5 to $10 billion (USD),0,0,66.5,PA,38,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,sr,M,4
+Data Engineer,51 - 200,Company - Private,Business Services,$1 to $5 million (USD),0,0,94.5,CA,15,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,119,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,sr,M,2
+Other Scientist,10000+,Nonprofit Organization,Health Care,$10+ billion (USD),1,0,51.5,NE,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,5001 - 10000,Company - Public,Finance,$2 to $5 billion (USD),1,0,27.5,TN,21,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,sr,na,2
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,194.5,IL,109,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,P,2
+Other Scientist,1001 - 5000,Nonprofit Organization,Business Services,$500 million to $1 billion (USD),0,0,71.5,TX,74,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,105.5,TX,NA,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,na,na,6
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,74,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,62.5,AL,99,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,1001 - 5000,Nonprofit Organization,Business Services,$500 million to $1 billion (USD),0,0,65.5,NC,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,161.5,NJ,32,1,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,6
+Data Analyst,1001 - 5000,Other Organization,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,72.5,PA,18,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,3
+Data Engineer,51 - 200,Company - Public,Information Technology,$10 to $25 million (USD),0,0,139,CA,13,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Engineer,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,136.5,CA,14,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Scientist,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,74.5,NY,19,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,80.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Scientist,5001 - 10000,Company - Public,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,75.5,NM,151,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,143.5,MO,5,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,0,na,na,6
+Data Scientist,51 - 200,Company - Private,Aerospace & Defense,$10 to $25 million (USD),0,0,101,VA,7,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Engineer,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,92,MA,170,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,76.5,WA,56,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$1 to $5 million (USD),0,0,140.5,UT,8,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,sr,na,6
+Data Scientist,10000+,Company - Public,Finance,$10+ billion (USD),0,0,116.5,NJ,209,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Machine Learning Engineer,501 - 1000,Subsidiary or Business Segment,Information Technology,Unknown / Non-Applicable,0,0,232.5,CA,22,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,sr,P,3
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,120.5,CA,5,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,P,2
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,82,VA,52,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,10000+,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,153,CA,14,1,1,1,0,1,0,1,1,0,1,0,0,0,0,0,0,na,P,7
+Data Scientist,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,127,CA,13,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,85.5,CA,11,1,1,0,1,1,0,0,0,1,1,1,0,0,0,0,0,na,P,7
+Data Scientist,1001 - 5000,Company - Public,Business Services,$1 to $2 billion (USD),0,0,76.5,NY,45,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,na,na,5
+Data Scientist,1001 - 5000,Subsidiary or Business Segment,Media,$500 million to $1 billion (USD),0,0,128,NY,29,1,1,0,0,1,0,1,0,1,1,1,1,0,0,1,1,na,na,10
+Data Engineer,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,91.5,PA,22,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,6
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,134.5,MA,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,201 - 500,Company - Private,Business Services,Unknown / Non-Applicable,0,0,164.5,CA,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,0,93.5,MD,19,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Analyst,201 - 500,Company - Public,Telecommunications,$50 to $100 million (USD),0,0,44,FL,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Engineer,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,149.5,TX,11,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Engineer,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,65.5,DC,14,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,4
+Data Engineer,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,109,VA,6,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,3
+Data Engineer,1001 - 5000,Subsidiary or Business Segment,Information Technology,$50 to $100 million (USD),0,0,177,CA,33,1,1,1,0,1,0,0,0,0,0,1,0,0,1,1,0,na,P,7
+Data Scientist,201 - 500,Company - Private,Aerospace & Defense,$100 to $500 million (USD),0,0,107,VA,11,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0,0,na,P,8
+Data Scientist,501 - 1000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,154.5,CA,9,1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,na,P,5
+Data Scientist,1 - 50,Company - Private,Accounting & Legal,Less than $1 million (USD),0,0,113.5,CA,NA,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Company - Public,Insurance,Unknown / Non-Applicable,0,0,124.5,NC,4,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Scientist,1 - 50,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,143.5,CA,NA,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,P,3
+Data Scientist,1 - 50,Company - Private,Information Technology,Less than $1 million (USD),0,0,113.5,CA,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,101.5,VA,52,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,na,M,4
+Data Analyst,10000+,Subsidiary or Business Segment,Manufacturing,$2 to $5 billion (USD),0,0,73,NY,86,0,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,5
+Data Scientist,10000+,Company - Public,Business Services,$2 to $5 billion (USD),0,0,80.5,NY,5,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,unknown,Company - Private,Business Services,Unknown / Non-Applicable,0,0,110.5,NY,NA,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,na,M,3
+Data Engineer,51 - 200,Company - Private,Business Services,Unknown / Non-Applicable,0,0,114,CA,23,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,M,4
+Data Scientist,51 - 200,Company - Private,Consumer Services,$5 to $10 million (USD),0,0,139.5,CA,NA,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,145.5,NY,10,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,4
+Data Scientist,201 - 500,Company - Private,Finance,$100 to $500 million (USD),0,0,87,NY,14,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,201 - 500,Company - Private,Finance,$50 to $100 million (USD),0,0,100.5,MA,136,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,147,NY,54,1,1,0,1,1,1,0,0,1,0,1,0,0,0,1,0,na,M,8
+Data Engineer,201 - 500,Company - Private,Insurance,$100 to $500 million (USD),0,0,110.5,NY,107,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Analyst,501 - 1000,Nonprofit Organization,Finance,Unknown / Non-Applicable,0,0,49,PA,84,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Data Scientist,51 - 200,Company - Private,Business Services,$5 to $10 million (USD),0,0,94,MA,NA,1,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,na,M,7
+Data Scientist,1001 - 5000,Company - Public,Information Technology,$500 million to $1 billion (USD),0,0,123.5,NY,22,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Other Scientist,10000+,Hospital,Health Care,$500 million to $1 billion (USD),0,0,84.5,NY,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,71,VA,32,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,4
+Data Engineer,10000+,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,73,OR,82,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Analyst,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,101,MA,170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Machine Learning Engineer,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,181,CA,14,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,na,na,5
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,109.5,CA,82,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Scientist,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,184.5,WA,63,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,sr,na,5
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,165,NY,7,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,sr,M,3
+Data Analyst,10000+,Company - Public,Information Technology,$5 to $10 billion (USD),0,0,61,IL,93,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,M,4
+Data Engineer,51 - 200,Company - Private,Information Technology,$50 to $100 million (USD),0,0,205,CA,11,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Analyst,1001 - 5000,School / School District,Education,$100 to $500 million (USD),0,0,59.5,NY,15,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,103.5,KY,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,62.5,CT,40,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,63,MA,170,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Analyst,1 - 50,Company - Private,Health Care,$10 to $25 million (USD),0,0,66,NY,41,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,501 - 1000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,94.5,CA,8,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,M,6
+Data Scientist,51 - 200,Company - Private,Education,Unknown / Non-Applicable,0,0,75.5,NY,9,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,na,na,5
+Machine Learning Engineer,501 - 1000,Company - Public,Aerospace & Defense,$100 to $500 million (USD),0,0,87,VA,67,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,140,MD,108,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Scientist,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,86,MD,15,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,116.5,CA,9,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,154.5,MA,11,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Machine Learning Engineer,501 - 1000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,87,KS,48,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Analyst,1001 - 5000,Company - Private,"Arts, Entertainment & Recreation",$100 to $500 million (USD),0,0,48.5,CA,35,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,na,M,5
+Data Engineer,501 - 1000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,80,TX,19,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Other Scientist,1001 - 5000,Hospital,Health Care,$50 to $100 million (USD),1,0,44.5,TX,44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,501 - 1000,Company - Private,Manufacturing,$100 to $500 million (USD),0,0,52.5,IL,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,173,CA,82,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Engineer,501 - 1000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,68.5,AZ,24,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,1001 - 5000,Company - Private,Finance,Unknown / Non-Applicable,0,0,172,NY,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,114.5,MA,109,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,95,MD,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,69.5,MA,63,1,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,na,na,6
+Data Engineer,501 - 1000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,64.5,NY,18,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,4
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,111.5,CA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,501 - 1000,Company - Private,Consumer Services,Unknown / Non-Applicable,0,0,97.5,NY,14,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Engineer,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,154.5,MA,240,0,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,na,M,6
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,124,PA,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,201 - 500,Company - Private,Health Care,Unknown / Non-Applicable,0,0,95,NY,10,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,5
+Data Scientist,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,128.5,IL,13,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,sr,na,6
+Data Scientist,501 - 1000,Subsidiary or Business Segment,Information Technology,Unknown / Non-Applicable,0,0,194,CA,15,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Scientist,201 - 500,Company - Public,Business Services,Unknown / Non-Applicable,0,0,104.5,NY,16,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,5
+Other Scientist,501 - 1000,Hospital,Health Care,$100 to $500 million (USD),1,0,65,CO,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,85.5,NC,13,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Analyst,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,50,UT,91,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Engineer,1001 - 5000,Company - Public,Media,$10+ billion (USD),0,0,113,CA,24,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,na,na,6
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,90.5,MA,191,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,153,CA,13,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Analyst,1001 - 5000,Company - Public,Business Services,$2 to $5 billion (USD),0,0,123.5,CA,33,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,na,M,5
+Data Analyst,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,47,NY,11,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Scientist,501 - 1000,Nonprofit Organization,Health Care,$500 million to $1 billion (USD),0,0,64,CA,25,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Information Technology,$5 to $10 billion (USD),0,0,162,CA,39,1,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,137,NY,108,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Engineer,10000+,Company - Private,Retail,$10+ billion (USD),0,0,98,TN,63,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,10000+,Company - Public,Insurance,$10+ billion (USD),0,0,115,NY,158,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,5001 - 10000,Company - Public,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,133.5,CO,151,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Engineer,501 - 1000,Nonprofit Organization,Insurance,$500 million to $1 billion (USD),0,0,99,CO,106,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Other Scientist,501 - 1000,Company - Private,Manufacturing,Unknown / Non-Applicable,0,0,54,WI,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,1001 - 5000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,109,TN,17,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,sr,na,3
+Data Engineer,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,109,MD,22,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,139.5,MA,37,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,4
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,254,IL,109,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,M,2
+Machine Learning Engineer,1001 - 5000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,125,NY,46,1,0,1,1,1,0,0,1,0,1,0,0,0,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,106.5,MA,25,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Other Scientist,201 - 500,Subsidiary or Business Segment,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,73,CA,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,99.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Analyst,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,45.5,OH,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,5001 - 10000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,54,MA,169,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,51 - 200,Company - Private,Business Services,$25 to $50 million (USD),0,0,122.5,IN,25,1,1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,sr,na,6
+Data Analyst,1001 - 5000,Subsidiary or Business Segment,Information Technology,$100 to $500 million (USD),0,0,37.5,FL,44,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Analyst,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,53.5,NY,19,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,na,M,5
+Data Scientist,5001 - 10000,Company - Public,Finance,$1 to $2 billion (USD),0,0,140,IL,53,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,77.5,VA,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Other Scientist,1 - 50,Company - Private,"Construction, Repair & Maintenance",Unknown / Non-Applicable,1,1,55,MA,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,117.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,501 - 1000,Company - Private,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,70.5,CA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,70,NY,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,61.5,CA,10,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,80,GA,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Scientist,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,79.5,GA,18,1,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,na,na,6
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,168,CA,7,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,4
+Data Engineer,1001 - 5000,Company - Private,Insurance,$100 to $500 million (USD),0,0,90,MA,33,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,120,MA,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Analyst,51 - 200,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,138.5,CA,13,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,3
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$2 to $5 billion (USD),0,0,111.5,PA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,0
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,68.5,MA,170,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,84.5,MA,191,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Engineer,1001 - 5000,Company - Public,Information Technology,$100 to $500 million (USD),0,0,102.5,TN,15,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,na,5
+Other Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,73.5,PA,37,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,501 - 1000,Nonprofit Organization,Government,$50 to $100 million (USD),0,0,93.5,OH,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,127.5,PA,22,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Analyst,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,72,UT,91,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,129.5,MA,170,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,na,na,8
+Data Analyst,1001 - 5000,Company - Private,Manufacturing,$500 million to $1 billion (USD),0,0,47,UT,44,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,4
+Data Engineer,501 - 1000,Subsidiary or Business Segment,Consumer Services,Unknown / Non-Applicable,0,0,65,AL,7,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,5
+Data Analyst,1001 - 5000,Company - Public,Finance,$1 to $2 billion (USD),0,0,60,WI,151,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,167.5,NY,172,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Analyst,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,65,NY,19,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Analyst,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,94,VA,9,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Analyst,201 - 500,Company - Private,Retail,$100 to $500 million (USD),0,0,87.5,NY,11,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,sr,na,4
+Data Engineer,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,97,VA,9,1,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,sr,na,6
+Data Engineer,5001 - 10000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,112.5,NC,31,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,sr,na,5
+Data Engineer,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,91.5,MA,170,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Data Engineer,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,51.5,IN,109,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,na,M,4
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,114.5,MA,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,201 - 500,Company - Private,Business Services,$10 to $25 million (USD),0,0,115,NY,10,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,na,na,6
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,74,PA,22,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Other Scientist,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,51,CA,49,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,501 - 1000,Company - Public,Health Care,Unknown / Non-Applicable,0,0,100,AZ,40,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,na,2
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,121,MA,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,0
+Data Analyst,201 - 500,Company - Private,Information Technology,$100 to $500 million (USD),0,0,121.5,CA,15,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,na,3
+Data Scientist,10000+,Company - Private,Finance,$10+ billion (USD),0,0,62.5,MA,165,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,na,M,4
+Other Scientist,unknown,Other Organization,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,117.5,MA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,122,FL,9,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Engineer,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,85,VA,17,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Engineer,501 - 1000,Company - Private,Information Technology,$50 to $100 million (USD),0,0,60.5,AZ,19,1,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,na,na,5
+Data Scientist,51 - 200,Company - Private,Finance,$50 to $100 million (USD),0,0,180,CA,12,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,3
+Data Scientist,1001 - 5000,Company - Private,Finance,Unknown / Non-Applicable,0,0,70.5,MO,19,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,na,na,6
+Data Engineer,1001 - 5000,Company - Private,Aerospace & Defense,$1 to $2 billion (USD),0,0,118.5,VA,4,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Analyst,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,66.5,IL,26,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,na,M,5
+Data Scientist,1001 - 5000,Company - Private,Business Services,$100 to $500 million (USD),0,0,107.5,MA,78,0,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,na,na,6
+Data Engineer,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,138.5,TX,11,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,sr,na,4
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,1001 - 5000,Company - Private,Insurance,$2 to $5 billion (USD),0,0,58.5,IL,96,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,M,5
+Data Engineer,1001 - 5000,Company - Public,Transportation & Logistics,$2 to $5 billion (USD),0,0,107.5,IL,16,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Other Scientist,501 - 1000,Company - Public,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,120.5,MA,13,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,63.5,CA,14,1,1,0,0,1,0,0,0,1,1,0,0,0,0,0,0,na,na,5
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,103.5,KY,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Scientist,5001 - 10000,Company - Public,Information Technology,$1 to $2 billion (USD),0,0,107,CA,40,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,na,na,4
+Data Engineer,5001 - 10000,Company - Public,Aerospace & Defense,$2 to $5 billion (USD),0,0,105.5,VA,NA,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Engineer,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,83,CA,49,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,na,na,3
+Data Engineer,1001 - 5000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,162,CA,14,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,sr,na,5
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,68.5,CA,52,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Insurance,$5 to $10 billion (USD),0,0,110.5,OH,43,0,0,0,1,1,0,0,1,0,1,0,0,0,0,0,0,sr,na,4
+Data Engineer,201 - 500,Subsidiary or Business Segment,Insurance,$100 to $500 million (USD),0,0,115.5,IA,NA,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,4
+Other Scientist,501 - 1000,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,87.5,CA,27,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,80.5,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,sr,M,2
+Data Analyst,501 - 1000,Company - Private,Finance,$100 to $500 million (USD),0,0,43,IA,29,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Data Analyst,201 - 500,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,140,MA,18,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,172,MA,172,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,120,MA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,5001 - 10000,Company - Private,Insurance,$5 to $10 billion (USD),0,0,66.5,PA,38,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,sr,M,4
+Other Scientist,501 - 1000,Company - Public,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,100,CA,27,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Engineer,51 - 200,Company - Private,Business Services,$1 to $5 million (USD),0,0,94.5,CA,15,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Scientist,501 - 1000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,221.5,CA,10,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,119,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,sr,M,2
+Data Engineer,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,95.5,IL,26,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,194.5,IL,109,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,P,2
+Other Scientist,10000+,Nonprofit Organization,Health Care,$10+ billion (USD),1,0,51.5,NE,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,5001 - 10000,Company - Public,Finance,$2 to $5 billion (USD),1,0,27.5,TN,21,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,sr,na,2
+Data Analyst,1001 - 5000,Company - Private,Finance,$1 to $2 billion (USD),0,0,173,NJ,48,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,105.5,TX,NA,1,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,na,na,6
+Other Scientist,1001 - 5000,Nonprofit Organization,Business Services,$500 million to $1 billion (USD),0,0,71.5,TX,74,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,74,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,62.5,AL,99,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,1001 - 5000,Nonprofit Organization,Business Services,$500 million to $1 billion (USD),0,0,65.5,NC,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,10000+,Company - Public,Retail,$5 to $10 billion (USD),0,0,85,PA,73,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,na,M,4
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,147.5,MD,108,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Scientist,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,161.5,NJ,32,1,0,1,1,1,0,0,0,0,0,0,1,1,0,0,0,na,na,6
+Data Engineer,10000+,Nonprofit Organization,Health Care,$1 to $2 billion (USD),0,0,81,VA,122,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Analyst,1001 - 5000,Other Organization,Biotech & Pharmaceuticals,$100 to $500 million (USD),0,0,72.5,PA,18,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,3
+Data Engineer,51 - 200,Company - Public,Information Technology,$10 to $25 million (USD),0,0,139,CA,13,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Engineer,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,136.5,CA,14,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Data Analyst,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,83,NY,13,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Other Scientist,51 - 200,Subsidiary or Business Segment,Business Services,$5 to $10 million (USD),0,0,121,MA,30,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,sr,P,4
+Data Scientist,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,74.5,NY,19,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Analyst,501 - 1000,Company - Private,Retail,Unknown / Non-Applicable,0,0,85.5,CA,19,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,80.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,51 - 200,Subsidiary or Business Segment,Business Services,$5 to $10 million (USD),0,0,167.5,MA,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,107.5,PA,37,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,na,P,3
+Data Analyst,501 - 1000,Nonprofit Organization,Non-Profit,$25 to $50 million (USD),0,0,44.5,WA,42,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Analyst,1001 - 5000,Company - Private,Health Care,$500 million to $1 billion (USD),0,0,107.5,MD,132,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,132.5,MA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Analyst,201 - 500,Company - Private,Health Care,$500 million to $1 billion (USD),0,0,69.5,PA,27,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,sr,na,4
+Data Engineer,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,98.5,CA,51,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,na,5
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,80.5,MD,60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,51 - 200,Company - Private,Biotech & Pharmaceuticals,$10 to $25 million (USD),1,0,76.5,MA,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,99,MD,99,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Data Scientist,501 - 1000,Company - Public,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,96.5,MA,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,53,MA,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Engineer,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,103,CA,10,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,sr,na,4
+Data Scientist,501 - 1000,Company - Public,Finance,$50 to $100 million (USD),0,0,139.5,CA,15,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,1001 - 5000,Government,"Oil, Gas, Energy & Utilities",$500 million to $1 billion (USD),0,0,67,WA,56,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,na,M,2
+Data Analyst,10000+,Company - Public,Information Technology,$10+ billion (USD),0,0,62.5,CT,40,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,92,MD,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,1 - 50,Company - Private,Health Care,$10 to $25 million (USD),0,0,66,NY,41,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Engineer,501 - 1000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,94.5,CA,8,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,na,M,6
+Data Scientist,1001 - 5000,Company - Private,Business Services,Unknown / Non-Applicable,0,0,114,NJ,32,1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,na,na,7
+Data Scientist,51 - 200,Company - Private,Education,Unknown / Non-Applicable,0,0,75.5,NY,9,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,na,na,5
+Data Scientist,1 - 50,School / School District,Education,$5 to $10 million (USD),0,0,96,MO,NA,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,P,3
+Machine Learning Engineer,501 - 1000,Company - Public,Aerospace & Defense,$100 to $500 million (USD),0,0,87,VA,67,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,86,MD,15,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,1 - 50,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,116.5,CA,9,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,$1 to $2 billion (USD),0,0,154.5,MA,11,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Analyst,1001 - 5000,Company - Private,"Arts, Entertainment & Recreation",$100 to $500 million (USD),0,0,48.5,CA,35,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,na,M,5
+Machine Learning Engineer,501 - 1000,Company - Public,Finance,$500 million to $1 billion (USD),0,0,87,KS,48,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Engineer,501 - 1000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,80,TX,19,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Other Scientist,1001 - 5000,Hospital,Health Care,$50 to $100 million (USD),1,0,44.5,TX,44,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Scientist,10000+,Company - Public,Aerospace & Defense,$10+ billion (USD),0,0,173,CA,82,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,501 - 1000,Company - Private,Manufacturing,$100 to $500 million (USD),0,0,52.5,IL,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,501 - 1000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,68.5,AZ,24,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,2
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,95,MD,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,69.5,MA,63,1,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,na,na,6
+Data Scientist,201 - 500,Subsidiary or Business Segment,Mining & Metals,Unknown / Non-Applicable,0,0,107,OH,136,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Data Scientist,501 - 1000,Company - Private,Information Technology,$100 to $500 million (USD),0,0,112,VA,11,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,M,4
+Data Scientist,51 - 200,Company - Private,Business Services,$10 to $25 million (USD),0,0,96.5,DC,24,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,na,M,2
+Other Scientist,201 - 500,Company - Public,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,111.5,CA,NA,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,154.5,MA,240,0,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,na,M,6
+Data Scientist,201 - 500,Company - Private,Health Care,Unknown / Non-Applicable,0,0,95,NY,10,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,5
+Data Scientist,501 - 1000,Company - Private,Consumer Services,Unknown / Non-Applicable,0,0,97.5,NY,14,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,201 - 500,Company - Private,Business Services,$50 to $100 million (USD),0,0,128.5,IL,13,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,sr,na,6
+Machine Learning Engineer,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,124,PA,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Data Scientist,501 - 1000,Subsidiary or Business Segment,Information Technology,Unknown / Non-Applicable,0,0,194,CA,15,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Other Scientist,501 - 1000,Hospital,Health Care,$100 to $500 million (USD),1,0,65,CO,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Analyst,10000+,Nonprofit Organization,Non-Profit,Unknown / Non-Applicable,0,0,50,UT,91,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,na,3
+Data Scientist,201 - 500,Company - Public,Business Services,Unknown / Non-Applicable,0,0,104.5,NY,16,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,5
+Data Scientist,201 - 500,Company - Private,Information Technology,$50 to $100 million (USD),0,0,69.5,AZ,52,1,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0,na,na,5
+Data Scientist,10000+,Company - Private,Education,Unknown / Non-Applicable,0,0,121,CA,24,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,na,M,5
+Data Engineer,201 - 500,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,85.5,NC,13,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Data Engineer,1001 - 5000,Company - Public,Media,$10+ billion (USD),0,0,113,CA,24,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,na,na,6
+Data Scientist,201 - 500,Subsidiary or Business Segment,Manufacturing,$25 to $50 million (USD),0,0,103,CA,16,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,na,M,5
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,90.5,MA,191,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,153,CA,13,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,3
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,106.5,VA,63,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,jr,na,7
+Data Scientist,51 - 200,Company - Private,Information Technology,Unknown / Non-Applicable,0,1,130,MI,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Analyst,1001 - 5000,Company - Public,Business Services,$2 to $5 billion (USD),0,0,123.5,CA,33,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,0,na,M,5
+Data Engineer,1001 - 5000,Company - Public,Information Technology,$500 million to $1 billion (USD),0,0,86.5,NY,22,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Data Scientist,501 - 1000,Nonprofit Organization,Health Care,$500 million to $1 billion (USD),0,0,64,CA,25,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,na,na,2
+Data Analyst,201 - 500,Company - Private,Information Technology,$10 to $25 million (USD),0,0,47,NY,11,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,na,2
+Data Scientist,10000+,Company - Public,Information Technology,$5 to $10 billion (USD),0,0,162,CA,39,1,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,140,MD,108,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,2
+Data Scientist,51 - 200,Company - Private,Information Technology,$5 to $10 million (USD),0,0,89,WA,NA,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,10000+,Company - Private,Retail,$10+ billion (USD),0,0,98,TN,63,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,137,NY,108,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,1
+Data Engineer,501 - 1000,Nonprofit Organization,Insurance,$500 million to $1 billion (USD),0,0,99,CO,106,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,na,M,3
+Other Scientist,501 - 1000,Company - Private,Manufacturing,Unknown / Non-Applicable,0,0,54,WI,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,1001 - 5000,Company - Private,Health Care,Unknown / Non-Applicable,0,0,109,TN,17,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,sr,na,3
+Data Engineer,201 - 500,Company - Private,Information Technology,$25 to $50 million (USD),0,0,109,MD,22,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Scientist,1001 - 5000,Company - Private,Information Technology,$1 to $2 billion (USD),0,0,139.5,MA,37,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,sr,M,4
+Data Scientist,10000+,Company - Private,Insurance,$10+ billion (USD),0,0,254,IL,109,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,na,M,2
+Machine Learning Engineer,1001 - 5000,Company - Private,Information Technology,Unknown / Non-Applicable,0,0,125,NY,46,1,0,1,1,1,0,0,1,0,1,0,0,0,0,0,0,na,M,6
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,106.5,MA,25,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,sr,M,5
+Other Scientist,1001 - 5000,Nonprofit Organization,Health Care,$100 to $500 million (USD),1,0,56.5,DE,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Other Scientist,201 - 500,Subsidiary or Business Segment,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,73,CA,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,P,0
+Other Scientist,201 - 500,Company - Private,Biotech & Pharmaceuticals,$25 to $50 million (USD),0,0,81,MD,60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,128.5,PA,22,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,na,na,5
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,99.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,501 - 1000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,92,CA,15,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,2
+Data Analyst,501 - 1000,Company - Private,Insurance,$500 million to $1 billion (USD),0,0,45.5,OH,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,na,0
+Data Engineer,51 - 200,Company - Private,Business Services,$25 to $50 million (USD),0,0,122.5,IN,25,1,1,1,0,1,0,0,0,0,0,1,0,0,0,1,0,sr,na,6
+Data Analyst,1001 - 5000,Subsidiary or Business Segment,Information Technology,$100 to $500 million (USD),0,0,37.5,FL,44,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,na,M,2
+Data Analyst,5001 - 10000,Company - Public,Insurance,$5 to $10 billion (USD),0,0,54,MA,169,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Data Analyst,1001 - 5000,Company - Private,Travel & Tourism,$2 to $5 billion (USD),0,0,53.5,NY,19,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,na,M,5
+Data Scientist,5001 - 10000,Company - Public,Finance,$1 to $2 billion (USD),0,0,140,IL,53,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,sr,na,4
+Data Scientist,5001 - 10000,Nonprofit Organization,Government,$1 to $2 billion (USD),0,0,77.5,VA,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,P,0
+Other Scientist,1 - 50,Company - Private,"Construction, Repair & Maintenance",Unknown / Non-Applicable,1,1,55,MA,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,5001 - 10000,Company - Private,Manufacturing,$10+ billion (USD),0,0,117.5,NC,146,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Other Scientist,501 - 1000,Company - Private,Biotech & Pharmaceuticals,$50 to $100 million (USD),0,0,70.5,CA,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,0
+Data Scientist,51 - 200,Company - Private,Information Technology,$25 to $50 million (USD),0,0,61.5,CA,10,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,na,na,3
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,80,GA,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,sr,na,1
+Other Scientist,1001 - 5000,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,0,70,NY,6,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,unknown,Company - Private,Biotech & Pharmaceuticals,Unknown / Non-Applicable,0,1,120,MA,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Engineer,1001 - 5000,Company - Private,Insurance,$100 to $500 million (USD),0,0,90,MA,33,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,na,na,4
+Machine Learning Engineer,1 - 50,Company - Private,Education,Unknown / Non-Applicable,0,0,111,CA,14,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,na,na,5
+Data Analyst,51 - 200,Company - Public,Information Technology,Unknown / Non-Applicable,0,0,138.5,CA,13,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,sr,na,3
+Data Scientist,5001 - 10000,Company - Private,Insurance,$10+ billion (USD),0,0,68.5,MA,170,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
+Data Engineer,201 - 500,Company - Private,Information Technology,$100 to $500 million (USD),0,0,87.5,CA,10,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,na,P,4
+Data Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$2 to $5 billion (USD),0,0,111.5,PA,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,0
+Other Scientist,10000+,Company - Public,Biotech & Pharmaceuticals,$10+ billion (USD),0,0,84.5,MA,191,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,sr,M,1
+Data Engineer,1001 - 5000,Company - Public,Information Technology,$100 to $500 million (USD),0,0,102.5,TN,15,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,sr,na,5
+Other Scientist,501 - 1000,College / University,Education,Unknown / Non-Applicable,0,0,73.5,PA,37,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,P,1
+Data Scientist,1 - 50,Company - Private,Business Services,$5 to $10 million (USD),0,0,127.5,PA,22,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,na,na,1
+Other Scientist,501 - 1000,Nonprofit Organization,Government,$50 to $100 million (USD),0,0,93.5,OH,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,na,M,1
