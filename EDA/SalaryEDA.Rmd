@@ -1,0 +1,65 @@
+---
+title: "GraphsEDA"
+author: "Casey Dulaney"
+date: "3/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(tmap)
+library(ggspatial)
+library(sf)
+```
+
+
+
+# Read in Data
+```{r}
+salary <- read.csv("salary_data.csv")
+cities <- st_read("stanford-bx729wr3020-shapefile/bx729wr3020.shp")
+coord <- read.csv("simplemaps_uscities_basicv1.74/uscities.csv")
+```
+
+
+
+# Question 1: Which companies have the highest ratings?
+```{r}
+ratings <- arrange(salary, desc(Rating))
+head(ratings)
+```
+
+The companies with the highest rating are BPA services, Gridiron IT, Royce Geospatial, and SkySync.
+
+```{r}
+ggplot(salary, mapping = aes(x=Rating)) +
+  geom_bar()
+```
+Company ratings tend to be between 3 and 4, and there are more companies that have high ratings than low-rated companies. 
+
+# Question 2: What is the geographic distribution of companies
+### Cleaning
+```{r}
+coord <- unite(coord, "Location", city_ascii:state_id, sep=", ", remove=FALSE)
+cities <- unite(cities, "Location", name, state, sep=", ", remove=FALSE)
+
+salary2 <- merge(salary, coord, by="Location")
+cities2 <- merge(cities, salary2, by="Location")
+```
+
+
+### Mapping
+```{r}
+
+tmap_mode("view")
+
+
+tm_shape(cities2) +
+  tm_dots("Location", size = 0.001,
+  shape = 19,
+  title = NA,
+  legend.show = FALSE, col="black")
+```
+

@@ -1,0 +1,132 @@
+---
+title: "Salary Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(readr)
+library(htmlTable)
+```
+
+```{r}
+dfModel = read_csv("salary_model.csv")
+```
+
+Convert `Size` and `Revenue` as factor variables
+
+```{r}
+dfModel$Size = factor(dfModel$Size, levels = c("unknown", "1 - 50", "51 - 200", "201 - 500", "501 - 1000", "1001 - 5000", "5001 - 10000", "10000+"))
+dfModel$Revenue = factor(dfModel$Revenue, levels = c("Unknown / Non-Applicable", "Less than $1 million (USD)", "$1 to $5 million (USD)", "$5 to $10 million (USD)", "$10 to $25 million (USD)", "$25 to $50 million (USD)", "$50 to $100 million (USD)", "$100 to $500 million (USD)", "$500 million to $1 billion (USD)", "$1 to $2 billion (USD)", "$2 to $5 billion (USD)", "$5 to $10 billion (USD)", "$10+ billion (USD)"))
+
+```
+
+# Q1
+
+### Job Title vs AvgSalary
+```{r}
+dfModel %>%
+  ggplot() +
+  geom_boxplot(aes(x=`Job Title`, y=AvgSalary))+
+  coord_flip()
+```
+
+### Sector vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(Sector) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+    geom_bar(aes(x=reorder(Sector, meanSalary), y=meanSalary), stat="identity") +
+  coord_flip()
+```
+
+### Number of Skills vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(NumSkills) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+  geom_bar(aes(x=NumSkills, y=meanSalary), stat = "identity", fill="red") +
+  geom_smooth(aes(x=NumSkills, y=meanSalary), se = F)+
+  scale_x_continuous(breaks=seq(0, 10, by=1))
+```
+
+### Size vs Salary
+
+```{r}
+group_by(dfModel, Size) %>%
+  summarize(salary = mean(AvgSalary)) %>%
+ggplot() + 
+  geom_bar(aes(x = Size, y = salary), stat = "identity")+
+  coord_flip()
+```
+
+
+
+# Q2
+
+### Skill vs Num. of Jobs
+
+```{r}
+Skills=c("Python","spark","aws","excel","sql","sas","keras","pytorch","scikit","tensor","hadoop","tableau","bi","flink","mongo","google_an")
+Skills_subset=c("Python", "flink")
+for(i in Skills_subset){
+  plot = dfModel %>%
+    group_by_at(i) %>%
+    summarise(n = n()) %>%
+    ggplot() +
+      geom_bar(aes_string(x=i, y="n", fill=i), stat = "identity")+
+      theme_classic()+
+      coord_cartesian(ylim = c(0,800))
+  print(plot)
+}
+```
+
+### Num. of Skills vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(NumSkills) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+  geom_bar(aes(x=NumSkills, y=meanSalary), stat = "identity", fill="lightblue") +
+  geom_smooth(aes(x=NumSkills, y=meanSalary), se=F, col="black")+
+  theme_minimal()+
+  scale_x_continuous(breaks=seq(0, 10, by=1))
+```
+
+### Every 2-skill combination and its count and average salary
+
+```{r}
+dfModel %>%
+  filter(NumSkills==2) %>%
+  group_by_at(Skills) %>%
+  summarise(n=n(), meanSalary=mean(AvgSalary)) %>%
+  mutate(across(meanSalary, round, 2)) %>%
+  arrange(desc(meanSalary)) %>%
+  ungroup() %>%
+  htmlTable()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

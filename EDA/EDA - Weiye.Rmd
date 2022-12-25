@@ -1,0 +1,37 @@
+---
+title: "Salary Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(readr)
+```
+
+```{r}
+df = read_csv("salary_data.csv")
+```
+
+# First Question: What is the relationship between the average salary and the rating of the company?
+
+```{r}
+ggplot(data=df) +
+  geom_point(mapping=aes(x=Rating, y=AvgSalary)) +
+  geom_smooth(mapping=aes(x=Rating, y=AvgSalary))
+```
+
+# Second Question: Which job location has the highest paying jobs on average?
+
+```{r}
+df_StateSalary = df %>%
+  group_by(`Job Location`) %>%
+  summarise(AvgSalary_State = mean(AvgSalary)) %>%
+  ungroup()
+ggplot(data=df_StateSalary, aes(x=reorder(`Job Location`, AvgSalary_State) ,y=AvgSalary_State)) +
+  geom_bar(stat="identity") +
+  coord_flip()
+```
+
+
