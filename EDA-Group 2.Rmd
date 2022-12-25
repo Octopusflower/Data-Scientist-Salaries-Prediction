@@ -1,0 +1,316 @@
+---
+title: "Exploratory Data Analysis"
+author: "STOR 320.02 Group 2"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(tmap)
+library(ggspatial)
+library(sf)
+library(readr)
+library(dplyr)
+library(htmlTable)
+
+SALARY <- read_csv("salary_data.csv")
+cities <- st_read("stanford-bx729wr3020-shapefile/bx729wr3020.shp")
+coord <- read.csv("simplemaps_uscities_basicv1.74/uscities.csv")
+dfModel = read_csv("salary_model.csv")
+
+```
+
+# Creator: Casey Dulaney
+
+### Q1: Which companies have the highest ratings?
+
+```{r}
+ratings <- arrange(SALARY, desc(Rating))
+head(ratings)
+```
+
+```{r}
+ggplot(SALARY, mapping = aes(x=Rating)) +
+  geom_bar()
+```
+
+### Q2: What is the geographic distribution of the job locations?
+
+```{r}
+coord <- unite(coord, "Location", city_ascii:state_id, sep=", ", remove=FALSE)
+cities <- unite(cities, "Location", name, state, sep=", ", remove=FALSE)
+
+salary2 <- merge(SALARY, coord, by="Location")
+cities2 <- merge(cities, salary2, by="Location")
+```
+
+```{r}
+
+tmap_mode("view")
+tm_shape(cities2) +
+  tm_dots("Location", size = 0.001,
+  shape = 19,
+  title = NA,
+  legend.show = FALSE, col="black")
+```
+
+# Interpreter1: Weiye Zhang
+
+### Q1: What is the relationship between the average salary and the rating of the company?
+
+```{r}
+ggplot(data=SALARY) +
+  geom_point(mapping=aes(x=Rating, y=AvgSalary)) +
+  geom_smooth(mapping=aes(x=Rating, y=AvgSalary))
+```
+
+### Q2:Which job location has the highest paying jobs on average?
+
+```{r}
+df_StateSalary = SALARY %>%
+  group_by(`Job Location`) %>%
+  summarise(AvgSalary_State = mean(AvgSalary)) %>%
+  ungroup()
+ggplot(data=df_StateSalary, aes(x=reorder(`Job Location`, AvgSalary_State) ,y=AvgSalary_State)) +
+  geom_bar(stat="identity") +
+  coord_flip()
+```
+
+# Interpreter2: Serhat Çalıkoğlu
+
+### Q1: What is the relationship between size and salary?
+
+```{r}
+ggplot(data = SALARY) +
+        stat_summary(
+          mapping = aes(x = Size, y = AvgSalary),
+          fun.ymin = min,
+          fun.ymax = max,
+          fun.y = median)
+```
+
+### Q2: What is the relationship between size and headquarter location?
+
+```{r}
+SALARY = rename(SALARY,JobLocation = 'Job Location')
+ggplot(data = SALARY)+
+  geom_bar(aes(x =Size, fill = JobLocation))
+```
+
+# Orator1: Nathaniel McCraw
+
+### Q1: What is the relationship between age of the company and the rating of the company?
+
+```{r}
+ggplot(data=SALARY, mapping= aes(x=Age, y=Rating))+
+  geom_point()+
+  geom_smooth()
+```
+
+### Q2: Does a relationship between headquarter location and company rating exist?
+
+```{r}
+salary <- separate(SALARY, Location, into = c("City", "State"), sep = ",")
+ggplot(data=salary, mapping= aes(x=State, y=Rating))+
+  geom_point()
+```
+
+
+# Orator2: Ryan Kenney
+
+### Q1: What company pays their employees the most?
+
+```{r}
+arrange(SALARY, desc(AvgSalary))
+SalMost <- SALARY[SALARY$`AvgSalary` > 175,]
+ggplot(data = SalMost, aes(`company_txt`)) + 
+  geom_bar() +
+  coord_flip()
+```
+
+### Q2: What is the relationship between age of company and salary?
+
+```{r}
+ggplot(data = SALARY) + 
+  geom_point(aes(x = Age, y= AvgSalary)) +
+  geom_smooth(aes(x = Age, y= AvgSalary)) 
+```
+
+# Deliverer: Aijia Zhang
+
+### Q1: What is the relationship between type of industry and salary? (finance/healthcare...)
+
+
+```{r}
+ggplot(data= filter(SALARY, AvgSalary>=130, na.rm=TRUE)) +
+ geom_boxplot(
+ mapping = aes(
+ x = reorder(Industry, AvgSalary, FUN = median),
+ y = AvgSalary
+ )) +
+  labs(
+ y = "Average Salary",
+ x = "Type of Industry", )+
+ coord_flip()
+```
+
+### Q2: What is the relationship between type of ownership and salary? (private/ public/government...)
+
+```{r}
+Ownership=SALARY$`Type of ownership`
+ggplot(data = SALARY) +
+ geom_boxplot(
+ mapping = aes(
+ x = reorder(Ownership, AvgSalary, FUN = median),
+ y = AvgSalary
+ )) +
+labs(
+ y = "Average Salary",
+ x = "Type of Ownership", )+
+coord_flip()
+```
+
+# Follow-up Questions
+
+### New Questions Based Off Initial Investigation
+
+
+- Q1: Can we predict the average salary of a job given the variables (skills, job title, industry, etc)?
+
+- Q2: What skills should one learn to efficiently maximize average salary and amount of eligible jobs? (Generally? For specific job titles? Industry? )
+- Q3: Can we show the geographical distribution of the jobs? Do different types of jobs concentrate in different places? 
+
+- Q4: Which company has the largest gap between upper & lower salary? (= larger potential for salary growth? 
+
+
+### Investigation of Follow-up Questions
+
+GIVE WHAT 2 QUESTIONS YOU ATTEMPTED TO INVESTIGATE FURTHER IN COMPLETE SENTENCES 
+
+__Our group decided to investigate Q1 and Q2 in further detail.__
+
+SHOW AT LEAST 2 TABLES OR FIGURES BELOW THAT EXPLORE ANSWERS FOR THE QUESTIONS YOU ARE INVESTIGATING FURTHER.
+
+```{r}
+dfModel$Size = factor(dfModel$Size, levels = c("unknown", "1 - 50", "51 - 200", "201 - 500", "501 - 1000", "1001 - 5000", "5001 - 10000", "10000+"))
+dfModel$Revenue = factor(dfModel$Revenue, levels = c("Unknown / Non-Applicable", "Less than $1 million (USD)", "$1 to $5 million (USD)", "$5 to $10 million (USD)", "$10 to $25 million (USD)", "$25 to $50 million (USD)", "$50 to $100 million (USD)", "$100 to $500 million (USD)", "$500 million to $1 billion (USD)", "$1 to $2 billion (USD)", "$2 to $5 billion (USD)", "$5 to $10 billion (USD)", "$10+ billion (USD)"))
+```
+
+# Q1
+
+### Job Title vs AvgSalary
+```{r}
+dfModel %>%
+  ggplot() +
+  geom_boxplot(aes(x=`Job Title`, y=AvgSalary))+
+  coord_flip()
+```
+
+### Sector vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(Sector) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+    geom_bar(aes(x=reorder(Sector, meanSalary), y=meanSalary), stat="identity") +
+  coord_flip()
+```
+
+### Number of Skills vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(NumSkills) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+  geom_bar(aes(x=NumSkills, y=meanSalary), stat = "identity", fill="red") +
+  geom_smooth(aes(x=NumSkills, y=meanSalary), se = F)+
+  scale_x_continuous(breaks=seq(0, 10, by=1))
+```
+
+### Size vs Salary
+
+```{r}
+group_by(dfModel, Size) %>%
+  summarize(salary = mean(AvgSalary)) %>%
+ggplot() + 
+  geom_bar(aes(x = Size, y = salary), stat = "identity")+
+  coord_flip()
+```
+
+# Q2
+
+### Skill vs Num. of Jobs
+
+```{r}
+Skills=c("Python","spark","aws","excel","sql","sas","keras","pytorch","scikit","tensor","hadoop","tableau","bi","flink","mongo","google_an")
+Skills_subset=c("Python", "flink")
+for(i in Skills_subset){
+  plot = dfModel %>%
+    group_by_at(i) %>%
+    summarise(n = n()) %>%
+    ggplot() +
+      geom_bar(aes_string(x=i, y="n", fill=i), stat = "identity")+
+      theme_classic()+
+      coord_cartesian(ylim = c(0,800))
+  print(plot)
+}
+```
+
+### Num. of Skills vs AvgSalary
+
+```{r}
+dfModel %>%
+  group_by(NumSkills) %>%
+  summarise(meanSalary = mean(AvgSalary)) %>%
+  ggplot()+
+  geom_bar(aes(x=NumSkills, y=meanSalary), stat = "identity", fill="lightblue") +
+  geom_smooth(aes(x=NumSkills, y=meanSalary), se=F, col="black")+
+  theme_minimal()+
+  scale_x_continuous(breaks=seq(0, 10, by=1))
+```
+
+### Every 2-skill combination and its count and average salary
+
+```{r}
+dfModel %>%
+  filter(NumSkills==2) %>%
+  group_by_at(Skills) %>%
+  summarise(n=n(), meanSalary=mean(AvgSalary)) %>%
+  mutate(across(meanSalary, round, 2)) %>%
+  arrange(desc(meanSalary)) %>%
+  ungroup() %>%
+  htmlTable()
+```
+
+
+# Summary
+
+GIVE A 2 PARAGRAPH SUMMARY. 
+
+PARAGRAPH 1 SHOULD DESCRIBE WHAT YOU LEARNED ABOUT YOUR DATA FROM INVESTIGATING THE INITIAL QUESTIONS. DID YOU FIND ANYTHING UNUSUAL IN YOUR DATA? DID ANYTHING SURPRISE YOU? WHICH OF THE INITIAL QUESTIONS WERE HELPFUL IN LEADING YOU TO MORE QUESTIONS?
+
+_From investigating the initial questions, we noticed several interesting patterns. Regarding the relationship between salary and rating, there is a weak positive correlation between the average salary and the rating of the company, meaning that the rating variable is probably not a good predictor for the average salary. The ratings themselves tend to be between 3 and 4, and there are more companies that have high ratings than low-rated companies. The highest rated companies were BPA services, Gridiron IT, Royce Geospatial, and SkySync. The company that pays employees most is Liberty Mutual, and is most frequently paying their employees an average of over $175,000.  However, there was no clear pattern found between headquarters location and company rating, nor was there a clear relationship between age of a company and rating.  However, larger states such as California, Colorado, and New York had lots of large companies, and we see that there is large variability among younger companies. This figure also helped us notice that overall there are a few small sized companies in the dataset. As for the relationship between salary range and company size, larger sized companies tended to have a higher range of salaries; however, the median between each size category was pretty similar. When we investigated the relationship between type of industry and salary, the box plots we created showed that among the industries with average salaries higher than 130,000, Consulting seems to rank the highest with an average salary over 240,000. while real estate ranks the lowest with about only 125,000 average salary. The relationship between type of ownership and salary showed that College/University seems to rank highest with an average salary around 125,000, while Hospital ownership seems to rank lowest with an average salary around 70,000. We also noticed that private companies have many outliers despite the medium of overall distribution of only around 100,000. We found it unusual that there were so few small-sized companies, and we were surprised that there was no clear relationship between age of a company and rating, as it would have made sense for older, more established companies to have higher employee satisfaction. The questions that helped us create the follow-up questions were the questions related to salary, as it helped us in the creation of the first, second, third follow-up questions, which require us to go in-depth about the factors that contribute to higher salaries, and the question about the geographic distribution of jobs, for the third follow-up question about the distribution of certain jobs._
+
+
+PARAGRAPH 2 SHOULD SUMMARIZE WHAT YOU LEARNED FROM INVESTIGATING THE FOLLOW-UP QUESTIONS. WHY ARE THESE FOLLOW-UP QUESTIONS INTERESTING FOR INVESTIGATION? DESCRIBE THE TABLES/FIGURES YOU USED TO EXPLORE ANSWERS TO THESE FOLLOW-UP QUESTIONS? WHAT DID YOU LEARN FROM THE TABLES/FIGURES REGARDING THE FOLLOW-UP QUESTIONS YOU PROPOSED?
+
+
+_The follow-up questions are interesting and deserve further investigation because they are helpful for people who are already in the field of data science and who are pursuing a future career in this field. The answers to these questions can potentially optimize one’s job searching experience. For the first question, we plotted the relationship between average salary and 4 different variables: job title, sector, number of skills required, and size of the company. We used a box plot for the relationship with job title, and bar plots for the other 3 variables. We learned that Machine Learning Engineer has the highest mean and median salary, followed by Data Scientist. Companies in the Media sector have the highest salary jobs, on average, followed closely by Accounting & Legal, Information Technology, and Biotech & Pharmaceuticals._
+ _The number of skills required and salary have a strong positive correlation. Companies with 10000+ and 51-200 employees have the highest salaries on average, following companies with unknown sizes. We will further explore the companies with unknown sizes. For the second question, we first explored the amount of demand for each skill using bar plots. We have a plot for each of the 16 skills but we only showed Python and Flink. From this, we learn that, in general, Python should be the skill one should prioritize to learn first. Next, looking at the same bar plot from the first question that shows the relationship between the number of skills and salary, we see that the jump from 0 skills to 2 skills results in a great salary increase. But which 2 skills should one learn? We made a table to answer this question. The table contains all 2-skill combinations that jobs demand and calculated their average salary and count. We learn that Python and SAS pay the most, but not many jobs require them. A better option would be Python and Excel, ranking 3rd on the average salary and is the most demanded 2-skill combination. We will further explore these questions about jobs in specific sub-fields in data science. _
+
+
+
+
+
+
+
+
+
+
+
+

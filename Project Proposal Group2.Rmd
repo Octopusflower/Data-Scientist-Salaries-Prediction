@@ -1,0 +1,42 @@
+---
+title: "Project Proposal"
+author: "STOR 320.02 Group 2 "
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+# Project Roles
+
+- **Creator:** Casey Dulaney
+- **Interpreter 1:** Weiye Zhang
+- **Interpreter 2:** Serhat Çalıkoğlu
+- **Orator 1:** Nathaniel McCraw
+- **Orator 2:** Ryan Kenney
+- **Deliverer:** Aijia Zhang
+
+# Dataset
+
+[Data Scientist Salary](https://www.kaggle.com/nikhilbhathi/data-scientist-salary-us-glassdoor)
+
+# Initial Questions(2/person)
+
+- **Question 1:** What is the relationship between the average salary and the rating of the company?
+- **Question 2:** Which job location has the highest paying jobs on average?
+- **Question 3:** What is the relationship between size and salary?
+- **Question 4:** What is the relationship between size and headquarter location?
+- **Question 5:** Which companies have the highest ratings?
+- **Question 6:** What is the geographic distribution of the job locations?
+- **Question 7:** What company pays their employees the most?
+- **Question 8:** What is the relationship between age of company and salary?
+- **Question 9:** What is the relationship between type of industry and salary? (finance/healthcare...)
+- **Question 10:** What is the relationship between type of ownership and salary? (private/ public/government...)
+- **Question 11:** What is the relationship between age of the company and the rating of the company?
+- **Question 12:** Does a relationship between headquarter location and company rating exist?
+
+
+
